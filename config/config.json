@@ -1,0 +1,13 @@
+{
+  "port" : 4000,
+  "mongoose": {
+    "uri": "mongodb://localhost/pichama_dev"
+  },
+  "fromMailOptions": {
+    "user": "yzhivaga@gmail.com",
+    "pass": "password"
+  },
+  "warningEmails": [
+    "yzhivaga@gmail.com"
+  ]
+}

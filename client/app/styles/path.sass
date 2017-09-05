@@ -1,0 +1,77 @@
+.upload-path
+  h1.preview-title
+    text-align: center
+    font-weight: 300
+    margin-top: 20px
+    margin-bottom: 20px
+  div.preview-wrapper
+    text-align: center
+    h2
+      text-align: center
+      font-weight: 300
+      margin-top: 20px
+      margin-bottom: 20px
+    div.preview
+      width: 100px
+      height: 100px
+      background-size: cover
+      background-position: center
+      border-radius: 50%
+      display: inline-block
+      margin-right: 10px
+      &:last-child
+        margin-right: 0
+
+div.projects
+  width: 60%
+  margin: 0 auto
+  div
+    width: 100px
+    height: 100px
+    background-size: contain
+    background-position: top
+  section
+    margin-right: 10px
+    width: 120px
+    height: 120px
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    background-color: #37474F
+    border-radius: 3px
+    border: 1px solid transparent
+    cursor: pointer
+    transition: border 350ms ease
+    &:hover
+      border: 1px solid #E91E63
+    &:last-child
+      margin-right: 0
+    &.active
+      border: 1px solid #E91E63
+
+.load-images
+  width: 60%
+  border-radius: 3px
+  border: 1px solid rgba(#fff, 0.28)
+  height: 180px
+  margin: 0 auto
+  margin-top: 80px
+  position: relative
+  h1
+    text-align: center
+    font-weight: 300
+    margin-top: 20px
+  div.plus-btn
+    margin: 0 auto
+    font-size: 56px
+    user-select: none
+    cursor: pointer
+    background-color: #37474F
+    width: 50px
+    height: 50px
+    text-align: center
+    line-height: 50px
+    border-radius: 50%
+    margin-top: 40px
+  input[type="file"]
+    display: none
